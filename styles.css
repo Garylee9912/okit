@@ -1,0 +1,116 @@
+body, h1, h2, p, address {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgb(51, 51, 51);
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+a {
+  color: #42b4d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header section */
+header {
+  position: relative;
+  height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/VVV.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Profile section */
+.profile {
+  text-align: center;
+  margin: 20px;
+}
+
+.profile img {
+  width: 100px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+
+.profile-text {
+  margin-top: 10px;
+}
+
+.profile-text p {
+  font-size: 18px;
+  line-height: 24px;
+  color: rgb(51, 51, 51);
+}
+
+/* Ranking sections */
+section {
+  margin: 20px;
+}
+
+/* Recommendation style */
+.recommendation {
+  font-weight: bold;
+}
+
+/* Address style */
+address {
+  margin-top: 10px;
+}
+
+.food-description p.recommendation {
+  font-weight: bold;
+}
+
+.food-description .food-image {
+  margin-top: 20px;
+  width: 66.7%;
+}
+
+.food-description .food-image img {
+  width: 100%;
+}
